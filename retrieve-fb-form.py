@@ -1,4 +1,8 @@
-from facebookads.adobjects.leadgenform import LeadgenForm
+import facebook
+
+token = "EAAE4enbzPn0BABKwqKugfZClLv1cWG5TQApjMK5UbOrZCwdyNlvv66Ypqe8l6pohkpah0ovDNgItpqrGhaJC96C4qAKOXFt7XRD1KNVkM8LHkLAl6D1uuNjKwEWbZCb9ftJKWxLxWrAuZBerQcipOtVIbVHJYEqpBSJ50ckyGwZDZD"
+
+graph = facebook.GraphAPI(token)
 
 form = LeadgenForm(254886885252436)
 form.remote_read()
