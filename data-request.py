@@ -1,9 +1,6 @@
 import requests
 import mechanize
 
-YourLogin = 
-YourPassw = 
-
 browser = mechanize.Browser()
 browser.set_handle_robots(False)
 cookies = mechanize.CookieJar()
