@@ -8,4 +8,4 @@ data3 = data2[['Nombre','Apellido','Numero',"Correo", "Campaña","Hora"]]
 
 print(data3)
 
-data3.to_excel("df/to_merge/lunarena1.xlsx")
+data3.to_excel("gdrive/lunarena1.xlsx")
