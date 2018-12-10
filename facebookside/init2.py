@@ -1,6 +1,6 @@
 from facebook_business.api import FacebookAdsApi
 from facebook_business.adobjects.adaccount import AdAccount
-from facebookads.objects import AdCampaign
+
 
 my_app_id = '2015941031805106'
 my_app_secret = 'c6730bc343cdefecc28c894e8db18d16'
