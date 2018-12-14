@@ -28,9 +28,4 @@ params = {
     'breakdowns': [],
     'time_range': {'since':'2018-11-11','until':'2018-12-11'},
 }
- 
-print AdAccount(ad_account_id).get_insights(
-    fields=fields,
-    params=params,
-)
 
